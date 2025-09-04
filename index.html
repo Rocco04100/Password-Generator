@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <label for="length">Length: </label>
+      <input
+        id="length"
+        type="number" />
+      <br />
+      <label for="char">Characters: </label>
+      <input
+        id="char"
+        type="checkbox" />
+      <br />
+      <label for="num">Numbers: </label>
+      <input
+        id="num"
+        type="checkbox" />
+      <br />
+      <label for="sym">Symbols: </label>
+      <input
+        id="sym"
+        type="checkbox" />
+    </form>
+    <button id="generate">Generate</button>
+    <div class="container">
+        <p>Generated Password: </p>
+      <p id="generatedPassword"></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
